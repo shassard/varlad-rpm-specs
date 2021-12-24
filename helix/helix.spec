@@ -2,7 +2,7 @@
 
 Name:       helix
 Version:    0.5.0
-Release:    3%{?dist}
+Release:    4%{?dist}
 Summary:    A post-modern modal text editor.
 
 License:    MPL-2.0
@@ -34,6 +34,7 @@ cat >> %{buildroot}%{_bindir}/hx <<EOF
 
 HELIX_RUNTIME="%{_datadir}/helix/runtime" exec %{_datadir}/helix/hx "$@"
 EOF
+chmod +x %{buildroot}%{_prefix}/bin/hx
 
 %files
 %license LICENSE
