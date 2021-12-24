@@ -2,7 +2,7 @@
 
 Name:       macchina
 Version:    6.0.1
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    A system information frontend, with an (unhealthy) emphasis on performance.
 
 License:    MIT
