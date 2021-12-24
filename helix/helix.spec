@@ -32,9 +32,9 @@ touch %{buildroot}%{_bindir}/hx
 cat >> %{buildroot}%{_bindir}/hx <<EOF
 #!/usr/bin/env sh
 
-HELIX_RUNTIME="%{_datadir}/helix/runtime" exec %{_datadir}/helix/hx "$@"
+HELIX_RUNTIME="%{_datadir}/helix/runtime" exec %{_datadir}/helix/hx "\$@"
 EOF
-chmod +x %{buildroot}%{_prefix}/bin/hx
+#chmod +x %{buildroot}%{_prefix}/bin/hx
 
 %files
 %license LICENSE
