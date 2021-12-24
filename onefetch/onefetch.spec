@@ -2,7 +2,7 @@
 
 Name:       onefetch
 Version:    2.11.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Git repository summary on your terminal 
 
 License:    MIT
