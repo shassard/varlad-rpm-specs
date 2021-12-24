@@ -34,7 +34,7 @@ cat >> %{buildroot}%{_bindir}/hx <<EOF
 
 HELIX_RUNTIME="%{_datadir}/helix/runtime" exec %{_datadir}/helix/hx "\$@"
 EOF
-#chmod +x %{buildroot}%{_prefix}/bin/hx
+chmod +x %{buildroot}%{_prefix}/bin/hx
 
 %files
 %license LICENSE
