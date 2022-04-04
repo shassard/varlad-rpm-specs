@@ -7,7 +7,7 @@ Summary:    A post-modern modal text editor.
 
 License:    MPL-2.0
 URL:        https://github.com/helix-editor/helix
-Source0:    %{url}/releases/download/v%{version}/helix-v%{version}-x86_64-linux.tar.xz
+Source0:    %{url}/releases/download/%{version}/helix-%{version}-x86_64-linux.tar.xz
 
 %description
 A kakoune / neovim inspired editor, written in Rust.
