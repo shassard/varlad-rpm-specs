@@ -16,7 +16,7 @@ Features include Vim-like modal editing, multiple selections, built-in language 
 
 
 %prep
-%autosetup -n helix-v%{version}-x86_64-linux
+%autosetup -n helix-%{version}-x86_64-linux
 
 %install
 mkdir -p %{buildroot}%{_datadir}/helix
