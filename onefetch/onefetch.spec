@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:       onefetch
-Version:    2.11.0
-Release:    2%{?dist}
+Version:    2.12.0
+Release:    1%{?dist}
 Summary:    Git repository summary on your terminal 
 
 License:    MIT
