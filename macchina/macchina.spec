@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:       macchina
-Version:    6.0.1
-Release:    2%{?dist}
+Version:    6.0.6
+Release:    1%{?dist}
 Summary:    A system information frontend, with an (unhealthy) emphasis on performance.
 
 License:    MIT
@@ -14,10 +14,6 @@ Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 BuildRequires: cargo >= 1.39
 BuildRequires: rust >= 1.39
 %endif
-BuildRequires: gcc
-BuildRequires: python3-devel
-BuildRequires: libgit2-devel
-Requires: wmctrl
 
 %description
 macchina lets you view system information, like your kernel version, uptime, memory usage, processor load and much more. macchina is basic by default and extensible by design.
