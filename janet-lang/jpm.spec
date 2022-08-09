@@ -2,7 +2,7 @@
 
 Name:       jpm
 Version:    master
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    Janet Project Manager 
 
 License:    MIT
