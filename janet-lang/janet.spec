@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:       janet
-Version:    1.20.0
+Version:    1.23.0
 Release:    1%{?dist}
 Summary:    A dynamic language and bytecode vm 
 
