@@ -16,8 +16,7 @@ BuildRequires: rust >= 1.39
 %endif
 
 %description
-macchina lets you view system information, like your kernel version, uptime, memory usage, processor load and much more. macchina is basic by default and extensible by design.
-
+One can use juliaup to install specific Julia versions, it alerts users when new Julia versions are released and provides a convenient Julia release channel abstraction.
 
 %prep
 %autosetup -p1
