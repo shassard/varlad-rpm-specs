@@ -41,5 +41,3 @@ strip --strip-all %{buildroot}%{_bindir}/*
 %license LICENSE
 %doc README.md
 %{_bindir}/juliaup
-%(_bindir)/julialauncher
-%(_bindir)/juliainstaller
