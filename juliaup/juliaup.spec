@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:       juliaup
-Version:    1.7.20
+Version:    1.7.21
 Release:    1%{?dist}
 Summary:    Julia installer and version multiplexer.
 
@@ -41,3 +41,5 @@ strip --strip-all %{buildroot}%{_bindir}/*
 %license LICENSE
 %doc README.md
 %{_bindir}/juliaup
+%{_bindir}/julialauncher
+%{_bindir}/juliainstaller
