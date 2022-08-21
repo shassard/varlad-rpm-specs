@@ -9,7 +9,7 @@ License:    Apache-2.0 license
 URL:        https://github.com/carp-lang/Carp
 Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 
-BuildRequires: stack >= 2.7.5
+BuildRequires: stack
 BuildRequires: gcc
 BuildRequires: ncurses-devel
 Requires: clang
