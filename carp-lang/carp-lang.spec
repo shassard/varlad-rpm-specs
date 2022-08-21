@@ -19,7 +19,7 @@ Carp is a programming language designed to work well for interactive and perform
 
 
 %prep
-%autosetup -p1
+%autosetup -n Carp-%{version}
 
 %install
 stack build
