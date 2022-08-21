@@ -5,7 +5,7 @@ Version:    0.5.5
 Release:    1%{?dist}
 Summary:    A statically typed lisp, without a GC, for real-time applications.  
 
-License:    MIT
+License:    Apache-2.0 license
 URL:        https://github.com/carp-lang/Carp
 Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 
