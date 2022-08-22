@@ -9,10 +9,11 @@ License:    Apache-2.0 license
 URL:        https://github.com/carp-lang/Carp
 Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 
-Requires: clang
 BuildRequires: gcc
 BuildRequires: ncurses-devel
 BuildRequires: stack
+Recommends: clang
+Recommends: glibc-langpack-en
 
 %description
 Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
