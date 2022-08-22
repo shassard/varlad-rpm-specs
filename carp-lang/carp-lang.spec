@@ -2,7 +2,7 @@
 
 Name:       carp
 Version:    0.5.5
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    A statically typed lisp, without a GC, for real-time applications.  
 
 License:    Apache-2.0 license
