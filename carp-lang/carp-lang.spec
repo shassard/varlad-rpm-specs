@@ -11,6 +11,7 @@ Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 
 Requires: clang
 BuildRequires: gcc
+BuildRequires: gcc-c++
 BuildRequires: ncurses-devel
 BuildRequires: stack
 
