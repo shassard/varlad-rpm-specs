@@ -12,7 +12,7 @@ Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 Requires: clang
 BuildRequires: gcc
 BuildRequires: ncurses-devel
-BuildRequires: stack <= 2.7.3
+BuildRequires: stack
 
 %description
 Carp is a programming language designed to work well for interactive and performance sensitive use cases like games, sound synthesis and visualizations.
@@ -22,6 +22,7 @@ Carp is a programming language designed to work well for interactive and perform
 %autosetup -n Carp-%{version}
 
 %install
+stack upgrade
 stack build
 mkdir -p %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_libdir}/carp
