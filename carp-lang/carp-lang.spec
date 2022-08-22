@@ -12,7 +12,7 @@ Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 BuildRequires: gcc
 BuildRequires: ncurses-devel
 BuildRequires: stack
-BuildRequires: ghc-9.0
+BuildRequires: ghc9.0
 Recommends: clang
 Recommends: glibc-langpack-en
 
