@@ -47,8 +47,10 @@ mkdir -p %{buildroot}%{_docdir}/carp
 mv README.md %{buildroot}%{_docdir}/carp/README.md
 
 %files
-%license LICENSE.md
+%license LICENSE
 %doc README.md
 %{_bindir}/carp
 %{_bindir}/carp-header-parse
-%{_libexecdir}/carp/core/
+%{_libexecdir}/carp
+%{_libexecdir}/carp-header-parse
+%{_libdir}/carp/core/
