@@ -2,7 +2,7 @@
 
 Name:       carp
 Version:    0.5.5
-Release:    2%{?dist}
+Release:    3%{?dist}
 Summary:    A statically typed lisp, without a GC, for real-time applications.  
 
 License:    Apache-2.0 license
@@ -12,6 +12,7 @@ Source0:    %{url}/archive/refs/tags/v%{version}.tar.gz
 BuildRequires: gcc
 BuildRequires: ncurses-devel
 BuildRequires: stack
+BuildRequires: ghc-9.0
 Recommends: clang
 Recommends: glibc-langpack-en
 
@@ -23,7 +24,7 @@ Carp is a programming language designed to work well for interactive and perform
 %autosetup -n Carp-%{version}
 
 %install
-stack build
+stack build --system-ghc
 mkdir -p %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_libdir}/carp
 mkdir -p %{buildroot}%{_datadir}/carp
