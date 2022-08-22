@@ -24,11 +24,12 @@ Carp is a programming language designed to work well for interactive and perform
 %autosetup -n Carp-%{version}
 
 %install
+stack upgrade
 stack build --system-ghc
 mkdir -p %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_libdir}/carp
 mkdir -p %{buildroot}%{_datadir}/carp
-stack install --local-bin-path %{buildroot}%{_libexecdir}
+stack install --local-bin-path %{buildroot}%{_libexecdir} --system-ghc
 mv ./core %{buildroot}%{_libdir}/carp
 cat >> %{buildroot}%{_bindir}/carp <<EOF
 #!/usr/bin/env sh
