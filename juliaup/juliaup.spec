@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:       juliaup
-Version:    1.7.21
+Version:    1.7.22
 Release:    1%{?dist}
 Summary:    Julia installer and version multiplexer.
 
