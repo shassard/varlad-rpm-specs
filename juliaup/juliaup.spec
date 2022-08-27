@@ -35,6 +35,7 @@ export CARGO_PROFILE_RELEASE_BUILD_OVERRIDE_OPT_LEVEL=3
 rm -f %{buildroot}%{_prefix}/.crates.toml \
     %{buildroot}%{_prefix}/.crates2.json
 strip --strip-all %{buildroot}%{_bindir}/*
+ln -s %{_bindir}/julialauncher %{_bindir}/julia
 
 
 %files
@@ -43,3 +44,4 @@ strip --strip-all %{buildroot}%{_bindir}/*
 %{_bindir}/juliaup
 %{_bindir}/julialauncher
 %{_bindir}/juliainstaller
+%{_bindir}/julia
